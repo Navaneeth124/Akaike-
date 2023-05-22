@@ -1,0 +1,13 @@
+1.Define the Objective: Clearly articulate the objective of the project, which is to develop a solution that can automatically generate objective questions with multiple correct answers. Specify that the generated questions should test the reader's understanding of the chapter, have more than one possible correct answer, and encourage critical thinking and exploration of different perspectives.
+
+2.Gather Subject Material: Obtain the relevant subject material, such as a chapter from a textbook or other educational resources, in a format that can be processed by the solution. In this case, the data is in the form of a PDF file.
+
+3.Extract Text from PDF: Use a PDF processing library, such as PyPDF2, to extract the text from the PDF file and convert it into a usable format. This step ensures that the solution can access the textual content of the chapter.
+
+4.Develop Question Generation Algorithm: Design and implement an algorithm or logic that can generate objective questions based on the extracted text. The algorithm should consider the context, key concepts, and important information from the chapter to create meaningful and relevant questions.
+
+5.Determine Multiple Correct Answers: Modify the question generation algorithm to include the requirement of multiple correct answers. This can be achieved by designing questions that have more than one valid response, encouraging students to think beyond a single answer and consider various perspectives or possibilities.
+
+6.Implement Data Validation: Ensure that the solution performs data validation to handle different input scenarios. For example, verify that the input context is a string and raise an exception if it is not. This step helps maintain data integrity and prevents errors during the question generation process.
+
+7.Test and Iterate: Test the solution with different chapters or subject material to assess the quality of the generated questions. Iterate on the algorithm and logic based on the test results, refining the question generation process to improve accuracy, relevance, and complexity of the questions.
